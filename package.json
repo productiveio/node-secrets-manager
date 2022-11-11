@@ -1,0 +1,19 @@
+{
+  "name": "@productiveio/secrets-manager",
+  "version": "0.1.9",
+  "description": "",
+  "main": "./index.js",
+  "bin": {
+    "secrets-pull": "bin/secrets-pull.js"
+  },
+  "scripts": {},
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/productiveio"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-secrets-manager": "^3.204.0",
+    "yaml": "^2.1.3"
+  }
+}
