@@ -1,19 +1,27 @@
 {
   "name": "@productiveio/secrets-manager",
-  "version": "0.1.9",
-  "description": "",
+  "version": "0.1.10",
+  "description": "Node package for secrets-manager",
   "main": "./index.js",
   "bin": {
     "secrets-pull": "bin/secrets-pull.js"
   },
   "scripts": {},
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/productiveio"
-  },
-  "author": "",
+  "author": "The Productive Company",
   "license": "ISC",
   "dependencies": {
     "@aws-sdk/client-secrets-manager": "^3.204.0",
     "yaml": "^2.1.3"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/productiveio/node-secrets-manager.git"
+  },
+  "bugs": {
+    "url": "https://github.com/productiveio/node-secrets-manager/issues"
+  },
+  "homepage": "https://github.com/productiveio/node-secrets-manager#readme"
 }
