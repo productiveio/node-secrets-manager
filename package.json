@@ -1,6 +1,6 @@
 {
   "name": "@productiveio/secrets-manager",
-  "version": "0.1.11",
+  "version": "0.2.0",
   "description": "Node package for secrets-manager",
   "main": "./index.js",
   "bin": {
