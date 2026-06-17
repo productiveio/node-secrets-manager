@@ -13,6 +13,9 @@
     "@aws-sdk/client-secrets-manager": "^3.299.0",
     "yaml": "^2.2.2"
   },
+  "overrides": {
+    "fast-xml-builder": "^1.1.7"
+  },
   "directories": {
     "lib": "lib"
   },
